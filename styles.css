@@ -51,8 +51,11 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
-  color: white
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  color: white;
+  text-decoration:underline;
 }
 
 header {
@@ -86,7 +89,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: #af7134;
+  color: #d48435;
 }
 .card {
   margin: 30px;
